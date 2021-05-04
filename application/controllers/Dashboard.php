@@ -25,13 +25,6 @@ class Dashboard extends CI_Controller {
         $this->load->view('footer');
 	}
 
-    public function salam()
-	{
-		$this->load->view('header');
-        $this->load->view('dashboard/salam');
-        $this->load->view('footer');
-	}
-
     public function hello($teman="")
 	{
 		$data["nama"]=$teman;
