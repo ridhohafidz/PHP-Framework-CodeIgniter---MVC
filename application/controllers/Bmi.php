@@ -23,7 +23,7 @@ class Bmi extends CI_Controller {
 
         $this->load->model('pasien_model','pasien3');
         $this->pasien3->id=3;
-        $this->pasien3->kode='030001';
+        $this->pasien3->kode='010002';
         $this->pasien3->nama='Riyadi Salim';
         $this->pasien3->tmp_lahir='Banyumas';
         $this->pasien3->tgl_lahir='20 Des 1998';
